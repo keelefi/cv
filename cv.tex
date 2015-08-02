@@ -3,6 +3,12 @@
 % Remove page numbering
 \pagestyle{empty}
 
+% Allow hyperlinks
+\usepackage{hyperref}
+
+% Set hyperlink color and style
+\hypersetup{colorlinks,breaklinks,urlcolor=blue,linkcolor=blue}
+
 \begin{document}
 
 %---------------------------------------
@@ -13,5 +19,17 @@
 \Huge{Michele Lindroos} \\
 \normalsize{\today}
 \end{center}
+
+%---------------------------------------
+% Personal data
+%---------------------------------------
+
+\section*{Personal data}
+\begin{tabular}{rl}
+Place and Date of Birth & Finland, June 25, 1987\\
+Address & (undisclosed on github), Helsinki, Finland\\
+Phone & (undisclosed on github)\\
+E-mail & \href{mailto:michele.lindroos@gmail.com}{michele.lindroos@gmail.com}
+\end{tabular}
 
 \end{document}
