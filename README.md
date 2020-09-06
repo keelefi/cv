@@ -4,9 +4,9 @@ My Curriculum Vitae.
 
 # Dependencies
 
-To build, you need to install the following dependencies:
+To build on Ubuntu 20.04, you need to install the following dependencies:
 
-    $ sudo apt install texlive-latex-base
+    $ sudo apt install texlive-latex-base texlive-latex-extra texlive-latex-recommended
 
 # Building
 
